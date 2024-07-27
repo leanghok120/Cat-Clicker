@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#cat-button {
+  border: none;
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+}
+
+#cat-button img {
+  border-radius: 50%;
+}
+
+#cat-button:active {
+  transform: scale(1.1);
+}
+
+#score {
+  font-size: 80px;
+}
